@@ -1,0 +1,26 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "A collection of logging functions for various atlacord projects",
+  "main": "build/logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlacord/logger.git"
+  },
+  "author": "Kyle S <git@kylespa.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlacord/logger/issues"
+  },
+  "homepage": "https://github.com/atlacord/logger#readme",
+  "dependencies": {
+    "moment": "^2.31.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5"
+  }
+}
