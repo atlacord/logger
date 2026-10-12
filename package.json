@@ -1,5 +1,5 @@
 {
-  "name": "@atlacord/logger",
+  "name": "@atla/logger",
   "version": "1.0.0",
   "description": "A collection of logging functions for various atlacord projects",
   "main": "dist/index.js",
