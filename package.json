@@ -1,8 +1,11 @@
 {
   "name": "@atla/logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of logging functions for various atlacord projects",
-  "main": "dist/index.js",
+  "main": "dist/logger.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p 'tsconfig.json'"
   },
