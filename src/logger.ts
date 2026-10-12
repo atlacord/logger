@@ -2,12 +2,12 @@ import util from 'util';
 import winston from 'winston';
 import moment from 'moment';
 
-class Logger {
+export class Logger {
     private logger: any;
-    private logLevel: string;
+    public logLevel: string;
 
     constructor(options?: any) {
-        this.logLevel = options.logLevel;
+        this.logLevel = options.logLevel || 'info';
 
         const formatTime = winston.format((i) => {
             i.timestamp = moment(new Date()).format('HH:mm:ss');
@@ -65,5 +65,3 @@ class Logger {
         return ret;
     }
 }
-
-export default new Logger();
