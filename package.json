@@ -1,15 +1,23 @@
 {
-  "name": "logger",
+  "name": "@atlacord/logger",
   "version": "1.0.0",
   "description": "A collection of logging functions for various atlacord projects",
-  "main": "build/logger.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p 'tsconfig.json'"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/atlacord/logger.git"
   },
+  "keywords": [
+    "discord",
+    "discodapp",
+    "logger"
+  ],
   "author": "Kyle S <git@kylespa.com>",
   "license": "MIT",
   "bugs": {
